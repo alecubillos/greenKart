@@ -23,9 +23,16 @@ You need to install:
 ## Running the tests
 
 1. Using the terminal navigate to the folder where you cloned the project
-   - To open Cypress' GUI run `npx cypress open` Then you will have the ability to pick the tests to run
-   - To run the tests from the terminal run the command `npm run test`
-   - To run the tests in head mode run the command `npm run test:head-mode`
+   A. To open Cypress' GUI run `npx cypress open` Then you will have the ability to pick the tests to run
+   B. To run the tests from the terminal run the command `npm run test`
+   C. To run the tests in head mode run the command `npm run test:head-mode`
 
 2. Results you should see when running the scenarios from `greenkart.cy.js`
+
+## Test Results
+
+Depending on the command you choose to run the test results will look like the following examples.
+
+A. Test results for headed mode using the command `npx cypress open`
+    ![headed results](execution sample/headed-results.png)
 
