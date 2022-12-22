@@ -31,7 +31,7 @@ You need to install:
 
 Depending on the command you choose to run the test results will look like the following examples.
 
-A & B. Test results for headed mode using the command `npx cypress open` or  `npm run test`
+A & B. Test results for headed mode using the command 
 
     Pick the spec file you wish to run
 
@@ -41,7 +41,7 @@ A & B. Test results for headed mode using the command `npx cypress open` or  `np
 
     ![headed results](https://user-images.githubusercontent.com/11246509/209209588-d22558f8-0f7f-4621-b85c-a79aa74c3775.png)
 
-C. Test results in headless mode using the command `npm run test:head-mode`
+C. Test results in headless mode 
 
     ![headless results](https://user-images.githubusercontent.com/11246509/209209809-e6c7a332-b283-4e36-8a5f-b930525befc5.png
 
