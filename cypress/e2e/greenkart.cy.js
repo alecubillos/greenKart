@@ -1,22 +1,20 @@
 const { greenkart } = require("../POM/greenkart");
 
-    describe('Booking from scratch', () => {
+    describe('Shopping Cart Scenarios', () => {
       
       beforeEach(()=> {
         cy.visit('');
-            })
-          
-              
-    
+      })
+                     
         it('Add to cart', () => {
           greenkart.getTotalCartItems().invoke('text').then((initialTotal)=>{
             greenkart.addProductToCart('Brocolli');
             greenkart.getTotalCartItems().invoke('text').then((finalTotal)=>{
                 expect(parseInt(finalTotal)).eql(parseInt(initialTotal)+1);
             });
-          })
-          
+          })    
         })
+        
         it('Remove from cart', ()=> {
             greenkart.addProductToCart('Brocolli');
             greenkart.removeProductFromCartByName('Brocolli');
@@ -27,4 +25,4 @@ const { greenkart } = require("../POM/greenkart");
             greenkart.clickPreviewCart();
             greenkart.elements.getRemoveProductBtn().should('not.exist');
         })
-        })
+    })
