@@ -27,12 +27,27 @@ You need to install:
    B. To run the tests from the terminal run the command `npm run test`
    C. To run the tests in head mode run the command `npm run test:head-mode`
 
-2. Results you should see when running the scenarios from `greenkart.cy.js`
-
 ## Test Results
 
 Depending on the command you choose to run the test results will look like the following examples.
 
-A. Test results for headed mode using the command `npx cypress open`
+A & B. Test results for headed mode using the command `npx cypress open` or  `npm run test`
+
+    Pick the spec file you wish to run
+
+    ![spec file](executionExample/spec-files.png)
+
+    Test results in headed mode
+
     ![headed results](executionExample/headed-results.png)
+
+C. Test results in headless mode using the command `npm run test:head-mode`
+
+    ![headless results](executionExample/headless1.png)
+
+
+    ![headless results 2](executionExample/headless2.png)
+
+
+
 
