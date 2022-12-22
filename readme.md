@@ -33,11 +33,11 @@ Depending on the command you choose to run the test results will look like the f
 
 A & B. Test results for headed mode using the command `npx cypress open` or  `npm run test`
 
-    Pick the spec file you wish to run
+Pick the spec file you wish to run
 
     ![spec file](executionExample/spec-files.png)
 
-    Test results in headed mode
+Test results in headed mode
 
     ![headed results](executionExample/headed-results.png)
 
