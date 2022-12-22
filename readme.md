@@ -35,18 +35,18 @@ A & B. Test results for headed mode using the command `npx cypress open` or  `np
 
 Pick the spec file you wish to run
 
-    ![spec file](executionExample/spec-files.png)
+    ![spec file](executionExample/spec-files.png?raw=true)
 
 Test results in headed mode
 
-    ![headed results](executionExample/headed-results.png)
+    ![headed results](executionExample/headed-results.png?raw=true)
 
 C. Test results in headless mode using the command `npm run test:head-mode`
 
-    ![headless results](executionExample/headless1.png)
+    ![headless results](executionExample/headless1.png?raw=true)
 
 
-    ![headless results 2](executionExample/headless2.png)
+    ![headless results 2](executionExample/headless2.png?raw=true)
 
 
 
