@@ -1,0 +1,16 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce site tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run",
+    "test:head-mode": "npm run test -- --headed",
+    "test:chrome": "npm run test -- browser chrome"
+  },
+  "author": "Alejandra Cubillos",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}
