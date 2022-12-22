@@ -43,7 +43,7 @@ A & B. Test results for headed mode using the command
 
 C. Test results in headless mode 
 
-   ![headless results](https://user-images.githubusercontent.com/11246509/209209809-e6c7a332-b283-4e36-8a5f-b930525befc5.png
+   ![headless results](https://user-images.githubusercontent.com/11246509/209209809-e6c7a332-b283-4e36-8a5f-b930525befc5.png)
 
 
    ![headless results 2](https://user-images.githubusercontent.com/11246509/209209895-79132a92-db67-40b8-b5ff-f41a4893248a.png)
