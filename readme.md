@@ -34,5 +34,5 @@ You need to install:
 Depending on the command you choose to run the test results will look like the following examples.
 
 A. Test results for headed mode using the command `npx cypress open`
-    ![headed results](execution sample/headed-results.png)
+    ![headed results](executionExample/headed-results.png)
 
