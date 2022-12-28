@@ -10,7 +10,8 @@ These instructions will allow you to execute the tests in your local machine
 
 You need to install: 
 1. NodeJS
-2. Cypress
+2. npm
+3. Cypress
 
 
 ### Project Set-up
@@ -18,7 +19,7 @@ You need to install:
 1. Create a Folder in your machine
 2. Using the terminal, navigate to the folder you created in the previous step
 3. Download (or clone) this repository
-3. Install the dependencies from `package.json`using the command `npm install`
+4. Install the dependencies from `package.json`using the command `npm install`
 
 ## Running the tests
 
